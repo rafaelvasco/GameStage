@@ -1,0 +1,19 @@
+{
+  "name": "game-stage-ai",
+  "private": true,
+  "version": "0.5",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run generate-fonts && tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "generate-fonts": "node scripts/generate-font-patterns.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-typescript": "^1.0.4"
+  }
+}

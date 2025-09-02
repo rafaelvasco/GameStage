@@ -1,0 +1,152 @@
+{
+  "bundles": {
+    "perf-test": {
+      "name": "perf-test",
+
+      "assets": [
+        {
+          "id": "guitar",
+          "type": "texture",
+          "path": "assets/images/guitarguy.png"
+        }
+      ]
+    },
+    "sprite-test": {
+      "name": "sprite-test",
+
+      "assets": [
+        {
+          "id": "guitar",
+          "type": "texture",
+          "path": "assets/images/guitarguy.png"
+        }
+      ]
+    },
+    "fonts-test": {
+      "name": "fonts-test",
+
+      "assets": [
+        {
+          "id": "ui-font",
+          "type": "font",
+          "font": {
+            "fontFamily": "Impact",
+            "fontSize": 32,
+            "fontStyle": {
+              "weight": "normal"
+            },
+            "source": "native",
+            "path": "native://Impact",
+            "rendering": {
+              "antiAliasing": false,
+              "textRenderingOptimization": "optimizeLegibility"
+            }
+          }
+        },
+        {
+          "id": "title-font",
+          "type": "font",
+          "font": {
+            "fontFamily": "Verdana",
+            "fontSize": 32,
+            "fontStyle": {
+              "weight": "normal"
+            },
+            "source": "native",
+            "path": "native://Verdana",
+            "rendering": {
+              "antiAliasing": false,
+              "textRenderingOptimization": "geometricPrecision"
+            }
+          }
+        },
+        {
+          "id": "pixel-font",
+          "type": "font",
+          "font": {
+            "fontFamily": "Monaco, 'Lucida Console', 'Courier New', monospace",
+            "fontSize": 32,
+            "fontStyle": {
+              "weight": "normal"
+            },
+            "source": "native",
+            "path": "native://Monaco",
+            "rendering": {
+              "antiAliasing": false,
+              "textRenderingOptimization": "geometricPrecision"
+            }
+          }
+        },
+        {
+          "id": "snes-font",
+          "type": "font",
+          "font": {
+            "fontFamily": "SNESesque",
+            "fontSize": 32,
+            "fontStyle": {
+              "weight": "normal"
+            },
+            "source": "file",
+            "path": "assets/fonts/SNESesque.woff2",
+            "charset": { "preset": "latin-basic" },
+            "rendering": {
+              "preset": "subPixelAntialiased"
+            }
+          }
+        },
+        {
+          "id": "custom-font",
+          "type": "font",
+          "font": {
+            "fontFamily": "Georgia, serif",
+            "fontSize": 48,
+            "fontStyle": {
+              "weight": "bold"
+            },
+            "source": "native",
+            "path": "native://Georgia",
+            "charset": { "preset": "latin-extended" },
+            "rendering": {
+              "antiAliasing": false,
+              "textRenderingOptimization": "optimizeLegibility"
+            }
+          }
+        }
+      ]
+    },
+    "stage-test": {
+      "name": "stage-test",
+      "assets": [
+        {
+          "id": "guitar",
+          "type": "texture",
+          "path": "assets/images/guitarguy.png"
+        }
+      ]
+    },
+    "audio-test": {
+      "name": "audio-test",
+      "assets": [
+        {
+          "id": "background-music",
+          "type": "song",
+          "path": "assets/audio/background.ogg",
+          "volume": 0.7,
+          "loop": true
+        },
+        {
+          "id": "button-click",
+          "type": "soundeffect",
+          "path": "assets/audio/click.wav",
+          "volume": 0.8
+        },
+        {
+          "id": "jump-sound",
+          "type": "soundeffect",
+          "path": "assets/audio/jump.wav",
+          "volume": 0.9
+        }
+      ]
+    }
+  }
+}

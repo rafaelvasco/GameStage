@@ -1,0 +1,42 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 768
+  },
+  "game": {
+    "name": "Game Stage AI",
+    "preferredBackend": "WebGPU",
+    "startScene": "PerfTestScene"
+  },
+  "input": {
+    "keyboard": true,
+    "mouse": true,
+    "gamepad": true,
+    "preventDefaults": [
+      "Space",
+      "ArrowUp",
+      "ArrowDown",
+      "ArrowLeft",
+      "ArrowRight",
+      "KeyW",
+      "KeyA",
+      "KeyS",
+      "KeyD",
+      "Enter"
+    ],
+    "mousePreventDefaults": ["contextmenu"],
+    "gamepadDeadzone": 0.1,
+    "gamepadTriggerDeadzone": 0.05
+  },
+  "debugging": {
+    "input": false,
+    "graphics": false,
+    "audio": false
+  },
+  "audio": {
+    "enabled": true
+  },
+  "logging": {
+    "level": "debug"
+  }
+}
